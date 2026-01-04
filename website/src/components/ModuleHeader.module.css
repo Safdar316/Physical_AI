@@ -1,0 +1,47 @@
+.moduleHeader {
+  padding: 2rem 0;
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--robotics-accent));
+  color: white;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.moduleHeaderContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.moduleTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.moduleWeek {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.moduleDescription {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+@media (max-width: 996px) {
+  .moduleTitle {
+    font-size: 2rem;
+  }
+  
+  .moduleWeek {
+    font-size: 1.1rem;
+  }
+  
+  .moduleDescription {
+    font-size: 1.1rem;
+  }
+}

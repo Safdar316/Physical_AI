@@ -1,0 +1,92 @@
+.contentSummaryContainer {
+  background-color: var(--robotics-light);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summaryHeader {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--robotics-accent);
+}
+
+.summaryHeader h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.keyPointsSection {
+  margin-bottom: 1.5rem;
+}
+
+.keyPointsSection h4 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.keyPointsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.keyPointItem {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid var(--robotics-accent);
+}
+
+.keyPointTitle {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.keyPointDescription {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.furtherReadingSection {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.furtherReadingSection h4 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.furtherReadingList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.furtherReadingItem {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.furtherReadingItem:last-child {
+  border-bottom: none;
+}
+
+.furtherReadingItem::before {
+  content: "🔗 ";
+}
+
+@media (max-width: 768px) {
+  .contentSummaryContainer {
+    padding: 1rem;
+  }
+  
+  .keyPointItem {
+    padding: 0.75rem;
+  }
+}

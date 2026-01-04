@@ -1,0 +1,94 @@
+.diagramsContainer {
+  background-color: var(--robotics-light);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--robotics-accent);
+}
+
+.diagramsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.diagramCard {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.diagramCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.diagramHeader {
+  padding: 1rem;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.diagramIcon {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+.diagramTitle {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.diagramImage {
+  padding: 1rem;
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.diagramContent {
+  padding: 1rem;
+}
+
+.description {
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.caption {
+  font-style: italic;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .diagramsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .diagramHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .diagramIcon {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

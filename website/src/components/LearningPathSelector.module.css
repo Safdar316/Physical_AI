@@ -1,0 +1,176 @@
+.pathSelectorContainer {
+  padding: 2rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.mainTitle {
+  text-align: center;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1.5rem;
+}
+
+.introText {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.pathsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.pathCard {
+  border: 2px solid var(--ifm-color-emphasis-200);
+  border-left: 5px solid #4285f4;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.pathCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.pathCard.selected {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.2);
+}
+
+.pathHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.pathTitle {
+  margin: 0;
+  font-size: 1.4rem;
+  color: var(--ifm-color-primary);
+  flex: 1;
+}
+
+.difficultyBadge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+
+.pathDescription {
+  font-size: 1rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.pathDetails {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+}
+
+.detailItem {
+  margin-bottom: 0.5rem;
+}
+
+.prerequisitesSection,
+.outcomesSection {
+  margin-bottom: 1.5rem;
+}
+
+.prerequisitesSection h3,
+.outcomesSection h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-primary);
+  font-size: 1.1rem;
+}
+
+.prerequisitesSection ul,
+.outcomesSection ul {
+  padding-left: 1.5rem;
+  margin-bottom: 0;
+}
+
+.prerequisitesSection li,
+.outcomesSection li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.pathActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.startButton {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.confirmationMessage {
+  width: 100%;
+  padding: 1rem;
+  background-color: #e8f5e9;
+  border: 1px solid #4caf50;
+  border-radius: 6px;
+  text-align: center;
+  color: #2e7d32;
+}
+
+.confirmationMessage p {
+  margin: 0.25rem 0;
+}
+
+.additionalInfo {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+}
+
+.additionalInfo h3 {
+  color: var(--ifm-color-primary);
+  margin-top: 0;
+}
+
+@media (max-width: 996px) {
+  .pathsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pathHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .difficultyBadge {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+  
+  .mainTitle {
+    font-size: 1.8rem;
+  }
+  
+  .introText {
+    font-size: 1rem;
+  }
+}

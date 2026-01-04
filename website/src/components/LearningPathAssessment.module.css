@@ -1,0 +1,195 @@
+.assessmentContainer {
+  padding: 2rem 0;
+}
+
+.assessmentForm {
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 6px;
+  background-color: var(--ifm-color-emphasis-0);
+}
+
+.question h3 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+}
+
+.options {
+  margin-top: 1rem;
+}
+
+.optionLabel {
+  display: block;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.optionLabel:hover {
+  border-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.optionLabel.selected {
+  border-color: var(--ifm-color-primary);
+  background-color: rgba(66, 133, 244, 0.1);
+}
+
+.optionInput {
+  margin-right: 0.75rem;
+}
+
+.optionText {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.assessmentActions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.submitButton {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.submitButton:not(:disabled):hover {
+  opacity: 0.8;
+}
+
+.submitButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.resetButton {
+  background-color: var(--ifm-color-emphasis-200);
+  border-color: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-content);
+}
+
+.resultsContainer {
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resultCard {
+  background-color: white;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.resultHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--ifm-color-emphasis-200);
+}
+
+.resultHeader h3 {
+  margin: 0;
+  color: var(--ifm-color-primary);
+}
+
+.confidenceBadge {
+  background-color: var(--ifm-color-success);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.recommendedPath {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+}
+
+.recommendedPath h4 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+}
+
+.explanation {
+  margin-bottom: 1.5rem;
+}
+
+.explanation h5 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.nextSteps {
+  margin-bottom: 1.5rem;
+}
+
+.nextSteps h5 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.nextSteps ol {
+  padding-left: 1.5rem;
+}
+
+.resultActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.startPathButton {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.tryAgainButton {
+  background-color: var(--ifm-color-secondary);
+  border-color: var(--ifm-color-secondary);
+}
+
+@media (max-width: 768px) {
+  .assessmentForm,
+  .resultsContainer {
+    padding: 1rem;
+  }
+  
+  .resultHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .assessmentActions,
+  .resultActions {
+    flex-direction: column;
+  }
+  
+  .submitButton,
+  .resetButton,
+  .startPathButton,
+  .tryAgainButton {
+    width: 100%;
+  }
+}

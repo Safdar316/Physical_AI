@@ -1,0 +1,430 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1a73e8; /* Google blue for tech/robotics feel */
+  --ifm-color-primary-dark: #1866d1;
+  --ifm-color-primary-darker: #175db9;
+  --ifm-color-primary-darkest: #134c98;
+  --ifm-color-primary-light: #3b8cff;
+  --ifm-color-primary-lighter: #5d9fff;
+  --ifm-color-primary-lightest: #7fb3ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Additional custom variables for robotics course */
+  --robotics-accent: #0d9d76; /* Green accent for robotics */
+  --robotics-dark: #202124; /* Dark background for contrast */
+  --robotics-light: #f8f9fa; /* Light background for content */
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4285f4; /* Google blue in dark mode */
+  --ifm-color-primary-dark: #2e74e5;
+  --ifm-color-primary-darker: #2a6ad9;
+  --ifm-color-primary-darkest: #2257b0;
+  --ifm-color-primary-light: #5a95f5;
+  --ifm-color-primary-lighter: #73a8f7;
+  --ifm-color-primary-lightest: #8dbaf9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Dark mode specific variables */
+  --robotics-accent: #0d9d76;
+  --robotics-dark: #202124;
+  --robotics-light: #f8f9fa;
+}
+
+/* Custom styles for robotics course */
+.robotics-card {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--ifm-color-emphasis-100);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.robotics-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.robotics-module-header {
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--robotics-accent));
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.robotics-code-block {
+  border-radius: 8px;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.robotics-interactive-element {
+  background-color: var(--robotics-light);
+  border-left: 4px solid var(--robotics-accent);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+  .heroBanner {
+    padding: 2rem 1rem !important;
+  }
+
+  .heroContent {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem !important;
+  }
+
+  .robotAnimation {
+    min-width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .robotContainer {
+    transform: scale(0.7) !important;
+  }
+
+  .textContent {
+    min-width: 100% !important;
+    text-align: center !important;
+  }
+
+  .animatedTitle {
+    font-size: 1.8rem !important;
+  }
+
+  .subtitle {
+    font-size: 1rem !important;
+  }
+
+  /* Adjust content spacing on mobile */
+  .container {
+    padding: 0 1rem !important;
+  }
+
+  /* Adjust sidebar for mobile */
+  .menu {
+    max-height: calc(100vh - var(--ifm-navbar-height)) !important;
+  }
+
+  /* Adjust code blocks for mobile */
+  .prism-code {
+    font-size: 0.8rem !important;
+  }
+
+  /* Adjust buttons for mobile */
+  .button {
+    width: 100% !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  /* Adjust assessment components for mobile */
+  .assessmentContainer {
+    padding: 1rem !important;
+  }
+
+  .question {
+    padding: 1rem !important;
+  }
+
+  /* Adjust progress tracker for mobile */
+  .progressTracker {
+    padding: 1rem !important;
+  }
+
+  /* Adjust module headers for mobile */
+  .moduleHeader {
+    padding: 1rem 0.5rem !important;
+  }
+
+  .moduleTitle {
+    font-size: 1.8rem !important;
+  }
+
+  /* Adjust grid layouts for mobile */
+  .row {
+    margin: 0 -0.5rem !important;
+  }
+
+  .col {
+    padding: 0 0.5rem !important;
+  }
+}
+
+/* Responsive adjustments for tablets */
+@media (min-width: 769px) and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1rem !important;
+  }
+
+  .heroContent {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+  }
+
+  .robotContainer {
+    transform: scale(0.85) !important;
+  }
+
+  .animatedTitle {
+    font-size: 2.2rem !important;
+  }
+
+  .moduleTitle {
+    font-size: 2.2rem !important;
+  }
+}
+
+/* Responsive adjustments for small mobile devices */
+@media (max-width: 480px) {
+  .animatedTitle {
+    font-size: 1.5rem !important;
+  }
+
+  .moduleTitle {
+    font-size: 1.5rem !important;
+  }
+
+  .heroBanner {
+    padding: 1.5rem 0.5rem !important;
+  }
+
+  .robotContainer {
+    transform: scale(0.6) !important;
+  }
+
+  /* Adjust font sizes for very small screens */
+  h1 {
+    font-size: 1.8rem !important;
+  }
+
+  h2 {
+    font-size: 1.6rem !important;
+  }
+
+  h3 {
+    font-size: 1.4rem !important;
+  }
+
+  /* Adjust navigation for small screens */
+  .navbar__item, .navbar__link {
+    font-size: 0.9rem !important;
+  }
+
+  /* Adjust sidebar navigation for small screens */
+  .menu__list-item {
+    font-size: 0.9rem !important;
+  }
+
+  .menu__link {
+    padding: 0.6rem 1rem !important;
+  }
+}
+
+/* Responsive typography adjustments */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px !important;
+  }
+
+  .hero__title {
+    font-size: 2rem !important;
+  }
+
+  .hero__subtitle {
+    font-size: 1.1rem !important;
+  }
+
+  /* Adjust content page typography */
+  article h1 {
+    font-size: 1.8rem !important;
+  }
+
+  article h2 {
+    font-size: 1.6rem !important;
+  }
+
+  article h3 {
+    font-size: 1.4rem !important;
+  }
+
+  article h4 {
+    font-size: 1.2rem !important;
+  }
+
+  /* Adjust sidebar width */
+  .sidebar {
+    flex: 0 0 280px !important;
+  }
+
+  .docItemContainer {
+    padding: 0 0.5rem !important;
+  }
+}
+
+/* Responsive adjustments for navigation */
+@media (max-width: 996px) {
+  .navbar-sidebar__brand {
+    padding: 0.5rem 1rem !important;
+  }
+
+  .navbar-sidebar__items {
+    padding: 0.5rem !important;
+  }
+
+  .menu__list {
+    margin: 0.5rem 0 !important;
+  }
+
+  .menu__link {
+    font-size: 0.95rem !important;
+  }
+}
+
+/* Responsive adjustments for footer */
+@media (max-width: 996px) {
+  .footer--dark .footer__title {
+    font-size: 1.1rem !important;
+  }
+
+  .footer--dark .footer__link-item {
+    font-size: 0.9rem !important;
+  }
+}
+
+/* Responsive adjustments for code blocks */
+@media (max-width: 768px) {
+  .theme-code-block {
+    font-size: 0.75rem !important;
+  }
+
+  .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
+    padding: 1rem !important;
+  }
+}
+
+/* Responsive adjustments for tables */
+@media (max-width: 768px) {
+  .table {
+    display: block !important;
+    overflow-x: auto !important;
+  }
+
+  .table thead,
+  .table tbody,
+  .table th,
+  .table td,
+  .table tr {
+    display: block !important;
+  }
+
+  .table thead tr {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+  }
+
+  .table tr {
+    border: 1px solid #ccc !important;
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+    display: block !important;
+  }
+
+  .table td {
+    border: none !important;
+    position: relative !important;
+    padding-left: 50% !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .table td:before {
+    content: attr(data-label) !important;
+    position: absolute !important;
+    left: 8px !important;
+    width: 45% !important;
+    padding-right: 10px !important;
+    white-space: nowrap !important;
+    font-weight: bold !important;
+  }
+}
+
+/* Responsive adjustments for images */
+@media (max-width: 768px) {
+  .theme-doc-markdown img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .avatar__photo {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+
+  .avatar__photo--xl {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+}
+
+/* Responsive adjustments for alerts and admonitions */
+@media (max-width: 768px) {
+  .alert {
+    padding: 1rem !important;
+    margin: 1rem 0 !important;
+  }
+
+  .theme-admonition {
+    margin: 1rem 0 !important;
+    padding: 1rem !important;
+  }
+}
+
+/* Responsive adjustments for search bar */
+@media (max-width: 996px) {
+  .navbar__search {
+    padding: 0 1rem !important;
+  }
+
+  .search-bar {
+    min-width: 150px !important;
+  }
+}
+
+/* Responsive adjustments for mobile menu */
+@media (max-width: 996px) {
+  .navbar__toggle {
+    display: inherit !important;
+  }
+
+  .navbar__items--right,
+  .navbar__items--left {
+    flex: 1 !important;
+  }
+
+  .navbar-sidebar {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    background-color: var(--ifm-navbar-background-color) !important;
+    box-shadow: var(--ifm-global-shadow-lw) !important;
+    max-height: calc(100vh - var(--ifm-navbar-height)) !important;
+  }
+}
