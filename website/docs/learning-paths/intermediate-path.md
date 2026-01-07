@@ -56,7 +56,7 @@ By completing this path, you will:
 - Embodied intelligence project
 
 #### Resources
-- [Advanced Physical AI](../week-01-physical-ai/advanced-concepts)
+- [Introduction](../week-01-physical-ai/introduction)
 - [Embodied Intelligence](../week-02-physical-ai/embodied-intelligence)
 
 ---
@@ -94,9 +94,9 @@ By completing this path, you will:
 - Robot communication system implementation
 
 #### Resources
-- [Advanced ROS 2 Concepts](../week-03-ros2/advanced-concepts)
-- [Communication Patterns](../week-04-ros2/communication-patterns)
-- [Best Practices](../week-05-ros2/best-practices)
+- [ROS 2 Architecture](../week-03-ros2/ros2-architecture)
+- [Working with Nodes](../week-04-ros2/working-with-nodes)
+- [Communication Examples](../week-05-ros2/communication-examples)
 
 ---
 
@@ -127,8 +127,8 @@ By completing this path, you will:
 - Multi-simulation integration project
 
 #### Resources
-- [Advanced Gazebo](../week-06-simulation/advanced-gazebo)
-- [Unity Robotics](../week-07-simulation/unity-integration)
+- [Gazebo Setup](../week-06-simulation/gazebo-setup)
+- [Unity Visualization](../week-07-simulation/unity-visualization)
 
 ---
 
@@ -165,9 +165,9 @@ By completing this path, you will:
 - Reinforcement learning for robot control project
 
 #### Resources
-- [Advanced Isaac SDK](../week-08-nvidia-isaac/advanced-sdk)
-- [AI Perception](../week-09-nvidia-isaac/ai-perception)
-- [Reinforcement Learning](../week-10-nvidia-isaac/reinforcement-learning)
+- [Isaac Overview](../week-08-nvidia-isaac/isaac-overview)
+- [Vision Processing](../week-09-nvidia-isaac/vision-processing)
+- [Isaac Sim](../week-10-nvidia-isaac/isaac-sim)
 
 ---
 
@@ -198,8 +198,8 @@ By completing this path, you will:
 - Balance and locomotion implementation
 
 #### Resources
-- [Advanced Kinematics](../week-11-humanoid-robotics/advanced-kinematics)
-- [Dynamics and Interaction](../week-12-humanoid-robotics/dynamics-interaction)
+- [Kinematics Basics](../week-11-humanoid-robotics/kinematics-basics)
+- [Dynamics](../week-12-humanoid-robotics/dynamics)
 
 ---
 
@@ -223,7 +223,7 @@ By completing this path, you will:
 - Advanced conversational AI implementation
 
 #### Resources
-- [Advanced Conversational AI](../week-13-conversational-ai/advanced-topics)
+- [GPT Integration](../week-13-conversational-ai/gpt-integration)
 
 ---
 
@@ -252,19 +252,19 @@ After completing the core intermediate curriculum, choose one of the following s
 ## Advanced Resources
 
 ### Technical References
-- [Robotics Research Papers](../references/research-papers)
-- [Advanced Mathematics for Robotics](../math/advanced-math)
-- [Robotics Algorithms](../algorithms/robotics-algorithms)
+- [Case Studies](../week-02-physical-ai/case-studies)
+- [Advanced Concepts](../week-02-physical-ai/advanced-concepts)
+- [ROS 2 Architecture](../week-03-ros2/ros2-architecture)
 
 ### Development Tools
-- [Advanced ROS 2 Tools](../tools/advanced-ros-tools)
-- [Simulation Optimization](../tools/simulation-optimization)
-- [AI Development Environments](../tools/ai-development)
+- [Working with Nodes](../week-04-ros2/working-with-nodes)
+- [Communication Examples](../week-05-ros2/communication-examples)
+- [Gazebo Setup](../week-06-simulation/gazebo-setup)
 
 ### Industry Applications
-- [Service Robotics](../applications/service-robotics)
-- [Industrial Robotics](../applications/industrial-robotics)
-- [Research Robotics](../applications/research-robotics)
+- [Applications](../week-02-physical-ai/applications)
+- [Vision Processing](../week-09-nvidia-isaac/vision-processing)
+- [Isaac Sim](../week-10-nvidia-isaac/isaac-sim)
 
 ## Support Materials
 
@@ -278,9 +278,9 @@ After completing the core intermediate curriculum, choose one of the following s
 - Specialized topic sessions based on demand
 
 ### Additional Practice
-- [Intermediate Exercises](../exercises/intermediate-exercises)
-- [Industry Projects](../projects/industry-projects)
-- [Research Challenges](../challenges/research-challenges)
+- [Exercises](../week-02-physical-ai/exercises)
+- [Project Templates](../week-05-ros2/templates/project-templates)
+- [Communication Examples](../week-05-ros2/communication-examples)
 
 ## Progress Tracking
 

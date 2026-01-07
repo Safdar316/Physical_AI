@@ -56,8 +56,8 @@ By completing this path, you will:
 - Research proposal on embodied intelligence
 
 #### Resources
-- [Advanced Physical AI Research](../week-01-physical-ai/advanced-research)
-- [Embodied Intelligence Frontiers](../week-02-physical-ai/embodied-frontiers)
+- [Introduction to Physical AI](../week-01-physical-ai/introduction)
+- [Embodied Intelligence](../week-01-physical-ai/embodied-intelligence)
 
 ---
 
@@ -94,9 +94,9 @@ By completing this path, you will:
 - Hardware integration project
 
 #### Resources
-- [Real-Time ROS 2](../week-03-ros2/real-time-systems)
-- [Advanced Patterns](../week-04-ros2/advanced-patterns)
-- [Hardware Integration](../week-05-ros2/hardware-integration)
+- [ROS 2 Architecture](../week-03-ros2/ros2-architecture)
+- [Working with Nodes](../week-04-ros2/working-with-nodes)
+- [Communication Examples](../week-05-ros2/communication-examples)
 
 ---
 
@@ -127,8 +127,8 @@ By completing this path, you will:
 - Domain randomization and transfer project
 
 #### Resources
-- [Advanced Physics](../week-06-simulation/advanced-physics)
-- [Photorealistic Simulation](../week-07-simulation/photorealistic-sim)
+- [Gazebo Setup](../week-06-simulation/gazebo-setup)
+- [Unity Visualization](../week-07-simulation/unity-visualization)
 
 ---
 
@@ -165,9 +165,9 @@ By completing this path, you will:
 - Advanced reinforcement learning project
 
 #### Resources
-- [Advanced Isaac Research](../week-08-nvidia-isaac/advanced-research)
-- [Perception Research](../week-09-nvidia-isaac/perception-research)
-- [RL Research](../week-10-nvidia-isaac/rl-research)
+- [Isaac Overview](../week-08-nvidia-isaac/isaac-overview)
+- [Vision Processing](../week-09-nvidia-isaac/vision-processing)
+- [Isaac Sim](../week-10-nvidia-isaac/isaac-sim)
 
 ---
 
@@ -198,8 +198,8 @@ By completing this path, you will:
 - Research project with experimental validation
 
 #### Resources
-- [Advanced Humanoid Research](../week-11-humanoid-robotics/advanced-research)
-- [Interaction Research](../week-12-humanoid-robotics/interaction-research)
+- [Kinematics Basics](../week-11-humanoid-robotics/kinematics-basics)
+- [Dynamics](../week-12-humanoid-robotics/dynamics)
 
 ---
 
@@ -223,7 +223,7 @@ By completing this path, you will:
 - Advanced conversational AI research project
 
 #### Resources
-- [Advanced Conversational AI Research](../week-13-conversational-ai/advanced-research)
+- [GPT Integration](../week-13-conversational-ai/gpt-integration)
 
 ---
 
@@ -252,19 +252,19 @@ Choose one of the following research tracks to specialize in:
 ## Research Resources
 
 ### Academic Papers
-- [Latest Robotics Research](../research/latest-papers)
-- [Conference Proceedings](../research/conference-proceedings)
-- [Journal Articles](../research/journal-articles)
+- [Research Papers](../week-08-nvidia-isaac/isaac-overview)
+- [Conference Proceedings](../week-09-nvidia-isaac/vision-processing)
+- [Journal Articles](../week-10-nvidia-isaac/isaac-sim)
 
 ### Research Tools
-- [Simulation Research Tools](../tools/research-sim-tools)
-- [Data Analysis](../tools/data-analysis)
-- [Experiment Design](../tools/experiment-design)
+- [Simulation Tools](../week-06-simulation/gazebo-setup)
+- [Data Analysis](../week-02-physical-ai/resources)
+- [Experiment Design](../week-05-ros2/communication-examples)
 
 ### Collaboration Platforms
-- [Research Collaboration](../community/research-collaboration)
-- [Paper Discussions](../community/paper-discussions)
-- [Project Partnerships](../community/project-partnerships)
+- [Research Collaboration](../../blog)
+- [Paper Discussions](../../blog)
+- [Project Partnerships](../../blog)
 
 ## Support Materials
 
@@ -278,9 +278,9 @@ Choose one of the following research tracks to specialize in:
 - Technical research support: Fridays 2-4 PM EST
 
 ### Additional Research Resources
-- [Research Exercises](../exercises/research-exercises)
-- [Research Projects](../projects/research-projects)
-- [Research Challenges](../challenges/research-challenges)
+- [Research Exercises](../week-02-physical-ai/exercises)
+- [Research Projects](../week-05-ros2/templates/project-templates)
+- [Research Challenges](../week-05-ros2/communication-examples)
 
 ## Progress Tracking
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, JSX } from 'react';
 import clsx from 'clsx';
 import styles from './ProgressTracker.module.css';
 

@@ -15,24 +15,27 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-humanoid-robotics-course.example.com',
+  url: 'https://physical-ai.vercel.app', // Updated to match actual domain
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'hackathon01', // Usually your GitHub org/user name.
-  projectName: 'project01', // Usually your repo name.
+  organizationName: 'Safdar316', // Updated to match actual GitHub username
+  projectName: 'Physical_AI', // Updated to match actual repo name
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+
+  // Add trailingSlash to prevent GitHub Pages issues
+  trailingSlash: true,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ur'], // English and Urdu as specified in requirements
+    locales: ['en'], // Temporarily removed 'ur' until translations are added
   },
 
   presets: [

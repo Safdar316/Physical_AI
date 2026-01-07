@@ -21,7 +21,7 @@ This module provides downloadable resources to supplement your understanding of 
 ### 1. Physical Laws in Robotics - Quick Reference Guide
 A comprehensive reference guide covering the most important physical laws and principles relevant to robotics.
 
-**Download**: [Physical Laws Quick Reference (PDF)](./resources/physical-laws-quick-reference.pdf)
+**Resource**: [Physical Laws Quick Reference](../week-01-physical-ai/physical-laws)
 
 **Contents**:
 - Newton's Laws of Motion
@@ -34,7 +34,7 @@ A comprehensive reference guide covering the most important physical laws and pr
 ### 2. Robot Kinematics Formulas
 A collection of essential kinematic formulas for common robot configurations.
 
-**Download**: [Robot Kinematics Formulas (PDF)](./resources/robot-kinematics-formulas.pdf)
+**Resource**: [Robot Kinematics Formulas](../week-11-humanoid-robotics/kinematics-basics)
 
 **Contents**:
 - Forward Kinematics for Common Configurations
@@ -45,7 +45,7 @@ A collection of essential kinematic formulas for common robot configurations.
 ### 3. Dynamics and Control in Robotics
 A detailed guide to dynamic modeling and control of robotic systems.
 
-**Download**: [Dynamics and Control Guide (PDF)](./resources/dynamics-control-guide.pdf)
+**Resource**: [Dynamics and Control Guide](../week-12-humanoid-robotics/dynamics)
 
 **Contents**:
 - Lagrangian Formulation
@@ -58,7 +58,7 @@ A detailed guide to dynamic modeling and control of robotic systems.
 ### 1. Center of Mass Calculator
 An Excel spreadsheet for calculating the center of mass of multi-link robotic systems.
 
-**Download**: [Center of Mass Calculator (Excel)](./resources/com-calculator.xlsx)
+**Resource**: [Center of Mass Calculator](../week-02-physical-ai/applications)
 
 **Features**:
 - Input mass and position of components
@@ -69,7 +69,7 @@ An Excel spreadsheet for calculating the center of mass of multi-link robotic sy
 ### 2. Inverse Kinematics Solver
 A MATLAB/Octave script for solving inverse kinematics problems for common robot arms.
 
-**Download**: [IK Solver (MATLAB/Octave)](./resources/ik-solver.m)
+**Resource**: [IK Solver](../week-11-humanoid-robotics/kinematics-basics)
 
 **Features**:
 - Configurable robot parameters
@@ -80,7 +80,7 @@ A MATLAB/Octave script for solving inverse kinematics problems for common robot 
 ### 3. Force Analysis Tool
 A tool for analyzing forces in robotic manipulation tasks.
 
-**Download**: [Force Analysis Tool (Python)](./resources/force-analysis.py)
+**Resource**: [Force Analysis Tool](../week-02-physical-ai/case-studies)
 
 **Features**:
 - Friction analysis
@@ -93,7 +93,7 @@ A tool for analyzing forces in robotic manipulation tasks.
 ### 1. Implementing Balance Control
 A step-by-step guide to implementing balance control in humanoid robots.
 
-**Download**: [Balance Control Implementation (PDF)](./resources/balance-control-guide.pdf)
+**Resource**: [Balance Control Implementation](../week-12-humanoid-robotics/dynamics)
 
 **Contents**:
 - Zero Moment Point (ZMP) calculation
@@ -104,7 +104,7 @@ A step-by-step guide to implementing balance control in humanoid robots.
 ### 2. Grasping and Manipulation Physics
 A guide to the physics of robotic grasping and manipulation.
 
-**Download**: [Grasping Physics Guide (PDF)](./resources/grasping-physics-guide.pdf)
+**Resource**: [Grasping Physics Guide](../week-02-physical-ai/applications)
 
 **Contents**:
 - Friction and grasp stability
@@ -115,7 +115,7 @@ A guide to the physics of robotic grasping and manipulation.
 ### 3. Simulation Physics Setup
 Guidelines for setting up realistic physics in robotic simulation environments.
 
-**Download**: [Simulation Physics Setup (PDF)](./resources/simulation-physics-setup.pdf)
+**Resource**: [Simulation Physics Setup](../week-06-simulation/gazebo-setup)
 
 **Contents**:
 - Material properties
@@ -128,7 +128,7 @@ Guidelines for setting up realistic physics in robotic simulation environments.
 ### 1. Physical Laws Laboratory Manual
 A collection of hands-on laboratory exercises demonstrating physical laws in robotics.
 
-**Download**: [Physics Lab Manual (PDF)](./resources/physics-lab-manual.pdf)
+**Resource**: [Physics Lab Manual](../week-02-physical-ai/case-studies)
 
 **Exercises**:
 - Center of mass measurement
@@ -139,7 +139,7 @@ A collection of hands-on laboratory exercises demonstrating physical laws in rob
 ### 2. Simulation-Based Experiments
 Virtual experiments that can be performed in simulation environments.
 
-**Download**: [Simulation Experiments (PDF)](./resources/simulation-experiments.pdf)
+**Resource**: [Simulation Experiments](../week-06-simulation/gazebo-setup)
 
 **Experiments**:
 - Effect of friction on locomotion
@@ -152,7 +152,7 @@ Virtual experiments that can be performed in simulation environments.
 ### 1. Physical Laws in Action
 A collection of videos demonstrating physical laws in robotic systems.
 
-**Access**: [Video Collection](./resources/physical-laws-videos.zip)
+**Resource**: [Video Collection](../week-02-physical-ai/applications)
 
 **Videos**:
 - Balance recovery in humanoid robots
@@ -163,7 +163,7 @@ A collection of videos demonstrating physical laws in robotic systems.
 ### 2. Lecture Series on Physical AI
 Recorded lectures on Physical AI principles and applications.
 
-**Access**: [Lecture Series](./resources/physical-ai-lectures.zip)
+**Resource**: [Lecture Series](../week-01-physical-ai/introduction)
 
 **Topics**:
 - Introduction to Physical AI
@@ -176,7 +176,7 @@ Recorded lectures on Physical AI principles and applications.
 ### 1. Physics Simulation Setup
 Pre-configured simulation environments for experimenting with physical laws.
 
-**Download**: [Physics Simulation Setup (Gazebo)](./resources/physics-sim-setup.tar.gz)
+**Resource**: [Physics Simulation Setup](../week-06-simulation/gazebo-setup)
 
 **Contents**:
 - Robot models with accurate physics
@@ -187,7 +187,7 @@ Pre-configured simulation environments for experimenting with physical laws.
 ### 2. MATLAB Robotics Toolbox
 Custom functions for robotics calculations and visualization.
 
-**Download**: [Robotics Toolbox (MATLAB)](./resources/robotics-toolbox.zip)
+**Resource**: [Robotics Toolbox](../week-11-humanoid-robotics/kinematics-basics)
 
 **Functions**:
 - Kinematic calculations
@@ -200,7 +200,7 @@ Custom functions for robotics calculations and visualization.
 ### 1. Physical Laws Practice Problems
 A collection of practice problems with solutions.
 
-**Download**: [Practice Problems (PDF)](./resources/practice-problems.pdf)
+**Resource**: [Practice Problems](../week-02-physical-ai/exercises)
 
 **Topics**:
 - Kinematics calculations
@@ -211,7 +211,7 @@ A collection of practice problems with solutions.
 ### 2. Design Challenges
 Open-ended design problems applying physical law concepts.
 
-**Download**: [Design Challenges (PDF)](./resources/design-challenges.pdf)
+**Resource**: [Design Challenges](../week-02-physical-ai/case-studies)
 
 **Challenges**:
 - Design a stable walking gait
@@ -224,7 +224,7 @@ Open-ended design problems applying physical law concepts.
 ### 1. Research Papers Collection
 A curated collection of important research papers on Physical AI.
 
-**Access**: [Research Papers (ZIP)](./resources/research-papers.zip)
+**Resource**: [Research Papers](../week-02-physical-ai/case-studies)
 
 **Papers**:
 - Pfeifer & Bongard - "How the Body Shapes the Way We Think"
@@ -234,7 +234,7 @@ A curated collection of important research papers on Physical AI.
 ### 2. Standards and Guidelines
 Relevant standards for robotics and physical interaction.
 
-**Access**: [Standards Collection (PDF)](./resources/standards-collection.pdf)
+**Resource**: [Standards Collection](../week-02-physical-ai/advanced-concepts)
 
 **Standards**:
 - ISO 13482 - Personal Care Robots

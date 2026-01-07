@@ -40,7 +40,7 @@ We offer three distinct learning paths designed to match your experience level a
 If you're still uncertain about which path is right for you:
 
 1. **Start with the Beginner Path** - It's designed to be accessible and will build a strong foundation
-2. **Join our Community** - Discuss with other learners and instructors in our [community forums](/community)
+2. **Join our Community** - Discuss with other learners and instructors in our [community forums](../../blog)
 3. **Contact Us** - Reach out to our support team for personalized guidance
 4. **Try Sample Modules** - Explore sample content from each path to gauge difficulty
 

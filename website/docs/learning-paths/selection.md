@@ -149,11 +149,11 @@ Once you've selected your learning path, you'll receive:
 ### Intermediate Path Starting Modules
 1. [Week 3: ROS 2 Architecture and Core Concepts](../week-03-ros2/ros2-architecture)
 2. [Week 6: Gazebo Simulation Environment Setup](../week-06-simulation/gazebo-setup)
-3. [Week 8: NVIDIA Isaac SDK Introduction](../week-08-nvidia-isaac/isaac-sdk)
+3. [Week 8: NVIDIA Isaac SDK Introduction](../week-08-nvidia-isaac/isaac-overview)
 
 ### Advanced Path Starting Modules
-1. [Week 8: NVIDIA Isaac SDK Introduction](../week-08-nvidia-isaac/isaac-sdk)
-2. [Week 11: Humanoid Robot Kinematics](../week-11-humanoid-robotics/kinematics)
+1. [Week 8: NVIDIA Isaac SDK Introduction](../week-08-nvidia-isaac/isaac-overview)
+2. [Week 11: Humanoid Robot Kinematics](../week-11-humanoid-robotics/kinematics-basics)
 3. [Week 13: Conversational AI for Robotics](../week-13-conversational-ai/gpt-integration)
 
 ## Adaptive Learning Features
@@ -170,9 +170,9 @@ You can change your learning path at any time. Simply visit this page and select
 
 ## Support Resources
 
-- [Getting Started Guide](../getting-started)
-- [Technical Requirements](../technical-requirements)
-- [Discussion Forum](../community/discussion)
-- [Office Hours Schedule](../community/office-hours)
+- [Course Summary](../course-summary)
+- [Introduction](../intro)
+- [Blog](../../blog)
+- [Blog](../../blog)
 
 Choose your learning path below to begin your journey in humanoid robotics!

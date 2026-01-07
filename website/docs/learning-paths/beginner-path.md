@@ -56,7 +56,7 @@ By completing this path, you will:
 #### Resources
 - [Physical AI Primer](../week-01-physical-ai/introduction)
 - [Embodied Intelligence Concepts](../week-02-physical-ai/embodied-intelligence)
-- [Basic Simulation Tutorial](../week-02-physical-ai/simulation-basics)
+- [Applications](../week-02-physical-ai/applications)
 
 ---
 
@@ -93,9 +93,9 @@ By completing this path, you will:
 - Communication pattern implementation exercise
 
 #### Resources
-- [ROS 2 Setup Guide](../week-03-ros2/setup-guide)
-- [Node Implementation Tutorial](../week-04-ros2/node-development)
-- [Communication Patterns](../week-05-ros2/communication-patterns)
+- [ROS 2 Architecture](../week-03-ros2/ros2-architecture)
+- [Working with Nodes](../week-04-ros2/working-with-nodes)
+- [Communication Examples](../week-05-ros2/communication-examples)
 
 ---
 
@@ -127,7 +127,7 @@ By completing this path, you will:
 
 #### Resources
 - [Gazebo Setup Guide](../week-06-simulation/gazebo-setup)
-- [Unity Robotics Basics](../week-07-simulation/unity-basics)
+- [Unity Visualization](../week-07-simulation/unity-visualization)
 
 ---
 
@@ -164,9 +164,9 @@ By completing this path, you will:
 - Basic reinforcement learning project
 
 #### Resources
-- [Isaac SDK Setup](../week-08-nvidia-isaac/isaac-sdk)
-- [Perception Systems](../week-09-nvidia-isaac/perception-systems)
-- [Reinforcement Learning](../week-10-nvidia-isaac/reinforcement-learning)
+- [Isaac Overview](../week-08-nvidia-isaac/isaac-overview)
+- [Vision Processing](../week-09-nvidia-isaac/vision-processing)
+- [Isaac Sim](../week-10-nvidia-isaac/isaac-sim)
 
 ---
 
@@ -197,7 +197,7 @@ By completing this path, you will:
 - Humanoid behavior implementation
 
 #### Resources
-- [Kinematics Basics](../week-11-humanoid-robotics/kinematics)
+- [Kinematics Basics](../week-11-humanoid-robotics/kinematics-basics)
 - [Dynamics and Interaction](../week-12-humanoid-robotics/dynamics)
 
 ---
@@ -229,35 +229,35 @@ By completing this path, you will:
 ## Additional Beginner Resources
 
 ### Mathematics Refresher
-- [Linear Algebra Basics](../math/linear-algebra-basics)
-- [Calculus for Robotics](../math/calculus-robotics)
-- [Probability and Statistics](../math/probability-statistics)
+- [Linear Algebra Basics](../week-01-physical-ai/physical-laws)
+- [Calculus for Robotics](../week-02-physical-ai/advanced-concepts)
+- [Probability and Statistics](../week-02-physical-ai/case-studies)
 
 ### Programming Tutorials
-- [Python for Robotics](../programming/python-robotics)
-- [C++ Basics](../programming/cpp-basics)
-- [ROS 2 Programming](../programming/ros2-programming)
+- [Python for Robotics](../week-03-ros2/ros2-architecture)
+- [C++ Basics](../week-04-ros2/working-with-nodes)
+- [ROS 2 Programming](../week-05-ros2/communication-examples)
 
 ### Simulation Tools
-- [Gazebo Tutorial](../tools/gazebo-tutorial)
-- [Unity Robotics Setup](../tools/unity-setup)
-- [Isaac Sim Basics](../tools/isaac-sim-basics)
+- [Gazebo Tutorial](../week-06-simulation/gazebo-setup)
+- [Unity Robotics Setup](../week-07-simulation/unity-visualization)
+- [Isaac Sim Basics](../week-10-nvidia-isaac/isaac-sim)
 
 ## Support Materials
 
 ### Getting Help
-- [FAQ](../support/faq)
-- [Troubleshooting Guide](../support/troubleshooting)
-- [Community Forum](../community/forum)
+- [FAQ](../../blog)
+- [Troubleshooting Guide](../../blog)
+- [Community Forum](../../blog)
 
 ### Office Hours
 - Weekly office hours: Tuesdays 2-3 PM EST
 - Beginner-specific Q&A sessions: Thursdays 7-8 PM EST
 
 ### Additional Practice
-- [Beginner Exercises](../exercises/beginner-exercises)
-- [Sample Projects](../projects/beginner-projects)
-- [Coding Challenges](../challenges/beginner-challenges)
+- [Beginner Exercises](../week-02-physical-ai/exercises)
+- [Sample Projects](../week-05-ros2/templates/project-templates)
+- [Coding Challenges](../week-05-ros2/communication-examples)
 
 ## Progress Tracking
 
